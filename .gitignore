@@ -1,0 +1,58 @@
+# ============ Python (AI-Module/) ============
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ============ Java (BackEnd/) ============
+target/
+build/
+*.class
+*.jar
+!**/mvnw.jar
+!**/wrapper/*.jar
+.mvn/
+HELP.md
+
+# ============ IDEs ============
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+.cursor/
+
+# ============ ML / Data ============
+*.pth
+*.pt
+*.ckpt
+weights/
+models/
+datasets/
+data/
+
+# ============ Vector DB / Local services ============
+qdrant_storage/
+postgres_data/
+ollama_data/
+*.db
+*.sqlite
+
+# ============ Logs ============
+*.log
+logs/
+
+# ============ Secrets ============
+.env
+.env.local
+*.secret
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+desktop.ini
